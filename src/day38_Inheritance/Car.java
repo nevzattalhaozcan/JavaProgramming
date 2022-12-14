@@ -3,11 +3,11 @@ package day38_Inheritance;
 public class Car {
 
     // Private instance fields
-    private String brand, model;
-    private int year;
-    private double price;
-    private String color;
-    private int miles;
+    public String brand, model;
+    public int year;
+    public double price;
+    public String color;
+    public int miles;
 
     // Constructor
     public Car(String brand, String model, int year, double price, String color, int miles) {
