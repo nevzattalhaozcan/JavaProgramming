@@ -30,7 +30,7 @@ public class Circle extends Shape{
 
     @Override
     public String toString() {
-        return "Circle {" +
+        return "Circle{" +
                 " Radius: " + radius +
                 ", Area: " + area() +
                 ", Perimeter: " + perimeter() +
