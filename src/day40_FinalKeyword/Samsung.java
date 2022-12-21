@@ -11,3 +11,14 @@ package day40_FinalKeyword;
 // IPhone class is final. So, it cannot be inherited.
 
 // ***Every method can be overloaded regardless of whether it is final or not.
+    public class Samsung{
+
+        public final int sum(int a, int b){
+            return a + b;
+        }
+
+        public final int sum(int a, int b, int c){
+            return a + b + c;
+        }
+
+    }
