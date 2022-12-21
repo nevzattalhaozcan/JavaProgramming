@@ -48,8 +48,18 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
+
 //    public void setBreed(String breed){   Setter cannot be used for final variables
 //        this.breed = breed;
 //    }
+
+    public void eat(){ // this shouldn't be final, because each animal eats different food
+        System.out.println(name + " is eating");
+    }
+
+    public final void drink(){ // this method can be final, because every animal drinks water.
+                               // after declaring the method as final, it cannot be overridden
+        System.out.println(name + " is drinking water");
+    }
 
 }
