@@ -48,12 +48,12 @@ public abstract class Car { // Abstract class must be the parent
         this.price = price;
     }
 
-    // Regular Methods
+    // Regular Methods * If we have common methods for each child, we can make it regular, and we don't need to override it
     public void stop(){
         System.out.println("Press the brake");
     }
 
-    // Abstract Methods (abstract methods must be overridden)
+    // Abstract Methods (abstract methods must be overridden) * Abstract methods allow each child to implement their own way and prevent the unnecessary details in the parent
     public abstract void start();
 
     // toString Method
